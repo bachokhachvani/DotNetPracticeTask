@@ -1,0 +1,123 @@
+2024-10-11 00:00:23.842 +04:00 [INF] GET
+2024-10-11 00:00:24.477 +04:00 [INF] GET
+2024-10-11 00:01:50.992 +04:00 [INF] /api/v1/User/sync
+2024-10-11 00:01:52.515 +04:00 [INF] /api/v1/User/sync
+2024-10-11 00:02:27.215 +04:00 [INF] /api/v1/User/sync
+2024-10-11 00:02:33.416 +04:00 [INF] /api/v1/User/sync
+2024-10-11 00:03:06.942 +04:00 [INF] /api/v1/User/sync
+2024-10-11 00:04:56.657 +04:00 [INF] /api/v1/User/sync
+2024-10-11 00:48:08.354 +04:00 [INF] Request: GET /api/v1/User/sync
+2024-10-11 00:48:34.358 +04:00 [INF] Request: POST /api/v1/User/sync
+2024-10-11 00:48:35.092 +04:00 [INF] Request: POST /api/v1/User/sync
+2024-10-11 16:06:09.241 +04:00 [INF] Request: GET /api/v1/User/sync/0
+2024-10-11 16:06:09.490 +04:00 [ERR] User id cannot be zero
+System.ArgumentException: User id cannot be zero
+   at WebApplication1.Services.UserService.GetUserById(Int32 userId) in C:\Users\khach\RiderProjects\WebApplication1\WebApplication1\Services\UserService.cs:line 22
+   at WebApplication1.Controllers.UserController.GetUser(Int32 id) in C:\Users\khach\RiderProjects\WebApplication1\WebApplication1\Controllers\UserController.cs:line 44
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at WebApplication1.Exceptions.ExceptionMiddleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\khach\RiderProjects\WebApplication1\WebApplication1\Exceptions\ExceptionMiddleware\ExceptionHandlingMiddleware.cs:line 24
+2024-10-11 16:06:13.447 +04:00 [INF] Request: GET /api/v1/User/sync/0
+2024-10-11 16:06:13.469 +04:00 [ERR] User id cannot be zero
+System.ArgumentException: User id cannot be zero
+   at WebApplication1.Services.UserService.GetUserById(Int32 userId) in C:\Users\khach\RiderProjects\WebApplication1\WebApplication1\Services\UserService.cs:line 22
+   at WebApplication1.Controllers.UserController.GetUser(Int32 id) in C:\Users\khach\RiderProjects\WebApplication1\WebApplication1\Controllers\UserController.cs:line 44
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at WebApplication1.Exceptions.ExceptionMiddleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\khach\RiderProjects\WebApplication1\WebApplication1\Exceptions\ExceptionMiddleware\ExceptionHandlingMiddleware.cs:line 24
+2024-10-11 16:08:20.520 +04:00 [INF] Request: GET /api/v1/User/sync/0
+2024-10-11 16:08:20.530 +04:00 [ERR] User id cannot be zero
+System.ArgumentException: User id cannot be zero
+   at WebApplication1.Services.UserService.GetUserById(Int32 userId)
+   at WebApplication1.Controllers.UserController.GetUser(Int32 id)
+   at lambda_method14(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at WebApplication1.Exceptions.ExceptionMiddleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context)
+2024-10-11 16:11:37.625 +04:00 [INF] Request: PUT /api/v1/User/sync/1
+2024-10-11 16:12:02.783 +04:00 [INF] Request: PUT /api/v1/User/sync/2
+2024-10-11 16:12:02.811 +04:00 [ERR] User not found
+WebApplication1.Exceptions.UserNotFoundException: User not found
+   at WebApplication1.Repositories.UserRepository.FindUser(Int32 id)
+   at WebApplication1.Repositories.UserRepository.UpdateUser(Int32 id, UserDTO user)
+   at WebApplication1.Services.UserService.UpdateUser(Int32 id, UserDTO user)
+   at WebApplication1.Controllers.UserController.UpdateUser(Int32 id, UserDTO user)
+   at lambda_method22(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at WebApplication1.Exceptions.ExceptionMiddleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context)
+2024-10-11 16:13:50.464 +04:00 [INF] Request: DELETE /api/v1/User/sync/2
+2024-10-11 16:13:50.524 +04:00 [ERR] User not found
+WebApplication1.Exceptions.UserNotFoundException: User not found
+   at WebApplication1.Repositories.UserRepository.DeleteUser(Int32 id)
+   at WebApplication1.Services.UserService.DeleteUser(Int32 userId)
+   at WebApplication1.Controllers.UserController.DeleteUser(Int32 id)
+   at lambda_method66(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at WebApplication1.Exceptions.ExceptionMiddleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context)
+2024-10-11 16:13:51.978 +04:00 [INF] Request: DELETE /api/v1/User/sync/2
+2024-10-11 16:13:51.982 +04:00 [ERR] User not found
+WebApplication1.Exceptions.UserNotFoundException: User not found
+   at WebApplication1.Repositories.UserRepository.DeleteUser(Int32 id)
+   at WebApplication1.Services.UserService.DeleteUser(Int32 userId)
+   at WebApplication1.Controllers.UserController.DeleteUser(Int32 id)
+   at lambda_method66(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at WebApplication1.Exceptions.ExceptionMiddleware.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context)
+2024-10-11 16:14:41.683 +04:00 [INF] Request: POST /api/v1/User/sync
+2024-10-11 16:14:42.919 +04:00 [INF] Request: POST /api/v1/User/sync
